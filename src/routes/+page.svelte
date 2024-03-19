@@ -52,7 +52,7 @@
 
 
 			<div class="separator">
-
+				<img src={lokites2} class="separator-lokites2"/>
 			</div>
 
 			<a href="/presskit">
@@ -68,7 +68,7 @@
 			</a>
 
 			<div class="separator">
-
+				<img src={lokites1} class="separator-lokites1"/>
 			</div>
 
 
@@ -162,6 +162,9 @@
 	import steam_logo from '$lib/images/steam.png';
 	import decoration1 from '$lib/images/lok-digital/decoration1.png';
 	import decoration2 from '$lib/images/lok-digital/decoration2.png';
+
+	import lokites1 from '$lib/images/Figures1.jpg';
+	import lokites2 from '$lib/images/Figures2.jpg';
 
 </script>
 
@@ -454,9 +457,10 @@
 	.separator {
 		width: 100%;
 		height: 16px;
-		background-color: #333333;
+		background-color: black;
 		margin-bottom: 32px;
 		margin-top: 32px;
+		position: relative;
 	}
 
 	.content-top {
@@ -492,6 +496,22 @@
 	.credits-middle-img {
 		max-width: 100%;
 		max-height: 100%;
+	}
+
+    .separator-lokites1 {
+		position: relative;
+		height: 32px;
+		bottom: 32px;
+		left: 64px;
+		float: left;
+	}
+
+	.separator-lokites2 {
+		position: relative;
+		height: 32px;
+		bottom: 32px;
+		right: 64px;
+		float: right;
 	}
 
 
