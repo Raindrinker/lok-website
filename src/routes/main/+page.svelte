@@ -55,6 +55,13 @@
 				<img src={lokites2} class="separator-lokites2"/>
 			</div>
 
+			<div class="laurels">
+
+				<img src={laurel1} class="laurel"/>
+				<img src={laurel2} class="laurel"/>
+
+			</div>
+
 			<div class="book-duet">
 				<img src={book} class="book-img"/>
 				<div class="book-duet-text">
@@ -148,6 +155,9 @@
 
 	import lokites1 from '$lib/images/Figures1.jpg';
 	import lokites2 from '$lib/images/Figures2.jpg';
+
+	import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
+	import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
 
 </script>
 
@@ -330,6 +340,10 @@
 		}
 
 		.credits-middle {
+			flex-direction: column;
+		}
+
+		.laurels {
 			flex-direction: column;
 		}
 	}
@@ -543,6 +557,16 @@
 		font-family: CenturyLocal;
 		font-size: 1.2em;
 		max-width: 80%;
+	}
+
+	.laurels {
+		display: flex;
+		column-gap: 32px;
+		row-gap: 32px;
+	}
+
+	.laurel {
+		max-width: 200px;
 	}
 
 </style>
