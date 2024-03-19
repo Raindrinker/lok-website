@@ -9,8 +9,28 @@
 		</div>
 
 		<div class="logo-img-div">
+
+			<div class="laurels laurels-pc">
+
+				<img src={laurel1} class="laurel"/>
+
+			</div>
+
 			<img src={logo} class="logo-img"/>
 
+			<div class="laurels laurels-pc">
+
+				<img src={laurel2} class="laurel"/>
+
+			</div>
+
+
+		</div>
+
+		<div class="laurels laurels-mobile">
+
+			<img src={laurel1} class="laurel"/>
+			<img src={laurel2} class="laurel"/>
 
 		</div>
 
@@ -51,32 +71,10 @@
 			</div>
 
 
+
+
 			<div class="separator">
 				<img src={lokites2} class="separator-lokites2"/>
-			</div>
-
-			<div class="laurels">
-
-				<img src={laurel1} class="laurel"/>
-				<img src={laurel2} class="laurel"/>
-
-			</div>
-
-			<div class="book-duet">
-				<img src={book} class="book-img"/>
-				<div class="book-duet-text">
-					An adaptation of the acclaimed pen&paper puzzle book LOK
-					<a href="https://www.blazgracar.com/lok">
-						<div class="book-link">
-							ABOUT THE BOOK >
-						</div>
-					</a>
-				</div>
-
-			</div>
-
-			<div class="separator">
-				<img src={lokites1} class="separator-lokites1"/>
 			</div>
 
 			<div class="links">
@@ -95,40 +93,61 @@
 
 
 
-
 			<div class="credits-middle">
 				<div class="credit1">
 					<a href="https://www.draknek.org/">
-					<div>
-						Publishing
-					</div>
-					<div class="credits-middle-img-div">
-						<img src={credits2} class="credits-middle-img"/>
-					</div>
+						<div>
+							Publishing
+						</div>
+						<div class="credits-middle-img-div">
+							<img src={credits2} class="credits-middle-img"/>
+						</div>
 					</a>
 				</div>
 				<div class="credit2">
 					<a href="https://www.blazgracar.com/letibus">
-					<div>
-						Design
-					</div>
-					<div class="credits-middle-img-div">
-						<img src={credits_letibus} class="credits-middle-img"/>
-					</div>
+						<div>
+							Design
+						</div>
+						<div class="credits-middle-img-div">
+							<img src={credits_letibus} class="credits-middle-img"/>
+						</div>
 					</a>
 				</div>
 				<div class="credit3">
 					<a href="https://www.icedropgames.com/">
-					<div>
-						Development
-					</div>
-					<div class="credits-middle-img-div">
-						<img src={credits_icedrop} class="credits-middle-img"/>
-					</div>
+						<div>
+							Development
+						</div>
+						<div class="credits-middle-img-div">
+							<img src={credits_icedrop} class="credits-middle-img"/>
+						</div>
 
 					</a>
 				</div>
 			</div>
+
+			<div class="separator">
+				<img src={lokites1} class="separator-lokites1"/>
+			</div>
+
+
+			<div class="book-duet">
+				<img src={book} class="book-img"/>
+				<div class="book-duet-text">
+					An adaptation of the acclaimed pen&paper puzzle book LOK
+					<a href="https://www.blazgracar.com/lok">
+						<div class="book-link">
+							ABOUT THE BOOK >
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+
+
+
 		</div>
 	</div>
 
@@ -148,7 +167,7 @@
 	import book from '$lib/images/book.png';
 	import credits_icedrop from '$lib/images/lok-digital/credits_icedrop.png';
 	import credits_letibus from '$lib/images/lok-digital/credits_letibus.png';
-	import credits2 from '$lib/images/lok-digital/DraknekFriendsLogo.png';
+	import credits2 from '$lib/images/lok-digital/DF_OutlineCutout.svg';
 	import steam_logo from '$lib/images/steam.png';
 	import decoration1 from '$lib/images/lok-digital/decoration1.png';
 	import decoration2 from '$lib/images/lok-digital/decoration2.png';
@@ -346,6 +365,14 @@
 		.laurels {
 			flex-direction: column;
 		}
+
+		.laurels-mobile {
+			display: flex !important;
+		}
+
+		.laurels-pc {
+			display: none !important;
+		}
 	}
 
 	.decor1 {
@@ -449,6 +476,7 @@
 	.book-duet {
 		display: flex;
 		align-items: center;
+		padding-bottom: 32px;
 	}
 
 	.book-duet-text {
@@ -561,12 +589,21 @@
 
 	.laurels {
 		display: flex;
-		column-gap: 32px;
-		row-gap: 32px;
 	}
 
 	.laurel {
 		max-width: 200px;
+	}
+
+	.laurels-mobile {
+		display: none;
+		flex-direction: row;
+		padding-bottom: 32px;
+		column-gap: 16px;
+	}
+
+	.laurels-mobile .laurel {
+		max-width: 160px;
 	}
 
 </style>
