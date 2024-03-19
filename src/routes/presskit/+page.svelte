@@ -19,15 +19,15 @@
                     <div class="presskit-text">Letibus Designs<br>Icedrop Games</div>
                     <div class="presskit-title2 pt">Publisher</div>
                     <div class="presskit-text">Draknek & Friends</div>
-                    <div class="presskit-title2 pt">Platforms</div>
+                    <!--<div class="presskit-title2 pt">Platforms</div>
                     <div class="presskit-text">Steam<br>Android<br>IOs</div>
 
                     <div class="presskit-title2 pt">Price</div>
-                    <div class="presskit-text">???</div>
-                    <div class="presskit-title2 pt">Links</div>
-                    <div class="presskit-text">???</div>
+                    <div class="presskit-text">???</div>-->
+                    <div class="presskit-title2 pt">Website</div>
+                    <div class="presskit-text">lok-digital.com</div>
                     <div class="presskit-title2 pt">Contact</div>
-                    <div class="presskit-text">???</div>
+                    <div class="presskit-text">hello@lok-digital.com</div>
 
 
                 </div>
@@ -71,9 +71,60 @@
                 </div>
                 <div class="presskit-title1 pt2 pb">Videos</div>
 
+                <div class="videos">
+
+                <div class="div-video">
+                    <div class="video">
+                        <iframe class="video-iframe"
+                                src="https://www.youtube.com/embed/v=U8p_XC-xY2w">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="div-video">
+                    <div class="video">
+                        <iframe class="video-iframe"
+                                src="https://www.youtube.com/embed/dyzWGS8ZT5Q">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="div-video">
+                    <div class="video">
+                        <iframe class="video-iframe"
+                                src="https://www.youtube.com/embed/cmSZ4RD3o6c">
+                        </iframe>
+                    </div>
+                </div>
+                </div>
+
                 <div class="presskit-title1 pt2 pb">Screenshots</div>
 
                 <div class="presskit-title1 pt2 pb">Gifs</div>
+
+                <div class="images">
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif1} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif2} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif3} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif4} class="screenshot-img"/>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="presskit-title1 pt2 pb">Key Art</div>
 
                 <div class="presskit-title1 pt2 pb">Logos</div>
@@ -109,6 +160,11 @@
     import lok_steam from '$lib/images/lok-digital/library_600x900_new.jpg';
     import credits from '$lib/images/lok-digital/credits.png';
     import credits2 from '$lib/images/lok-digital/DraknekFriendsLogo.png';
+
+    import gif1 from "$lib/images/lok-digital/gif1.gif";
+    import gif2 from "$lib/images/lok-digital/gif2.gif";
+    import gif3 from "$lib/images/lok-digital/gif3.gif";
+    import gif4 from "$lib/images/lok-digital/gif4.gif";
 
     let element;
 
@@ -268,6 +324,10 @@
             padding: 0px !important;
             padding-bottom: 32px !important;
         }
+
+        .videos {
+            flex-direction: column;
+        }
     }
 
     .presskit {
@@ -319,6 +379,36 @@
         font-size: 1.3em;
         padding-top: 4px;
         padding-bottom: 4px;
+    }
+
+
+    .videos {
+        display: flex;
+    }
+
+    .div-video {
+        padding-bottom: 16px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56%;
+        width: 100%;
+        text-align: left;
+        max-width: 646px;
+    }
+
+    .video-iframe {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        overflow: hidden;
     }
 
 </style>

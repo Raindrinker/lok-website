@@ -38,7 +38,7 @@
 			</div>
 
 
-			<form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8">
+			<form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form">
 				<input type="email" name="email" id="email" class="email" placeholder="email address" required />
 				<div style="position: absolute; left: -5000px;">
 					<label for="hp">HP</label><br/>
@@ -55,24 +55,6 @@
 				<img src={lokites2} class="separator-lokites2"/>
 			</div>
 
-			<a href="/presskit">
-				<div class="presskit-link">
-					PRESSKIT >
-				</div>
-			</a>
-
-			<a href="mailto:hello@lok-digital.com">
-				<div class="contact-link">
-					CONTACT US >
-				</div>
-			</a>
-
-			<div class="separator">
-				<img src={lokites1} class="separator-lokites1"/>
-			</div>
-
-
-
 			<div class="book-duet">
 				<img src={book} class="book-img"/>
 				<div class="book-duet-text">
@@ -86,58 +68,59 @@
 
 			</div>
 
+			<div class="separator">
+				<img src={lokites1} class="separator-lokites1"/>
+			</div>
+
+			<div class="links">
+				<a href="/presskit">
+					<div class="presskit-link">
+						PRESSKIT >
+					</div>
+				</a>
+
+				<a href="mailto:hello@lok-digital.com">
+					<div class="contact-link">
+						CONTACT US >
+					</div>
+				</a>
+			</div>
+
+
+
+
 			<div class="credits-middle">
 				<div class="credit1">
+					<a href="https://www.draknek.org/">
 					<div>
 						Publishing
 					</div>
 					<div class="credits-middle-img-div">
 						<img src={credits2} class="credits-middle-img"/>
 					</div>
-					<div class="credits-middle-link">
-						<a href="https://www.draknek.org/">
-							WEBSITE >
-						</a>
-					</div>
+					</a>
 				</div>
 				<div class="credit2">
+					<a href="https://www.blazgracar.com/letibus">
 					<div>
 						Design
 					</div>
 					<div class="credits-middle-img-div">
 						<img src={credits_letibus} class="credits-middle-img"/>
 					</div>
-					<div class="credits-middle-link">
-						<a href="https://www.blazgracar.com/letibus">
-							WEBSITE >
-						</a>
-					</div>
+					</a>
 				</div>
 				<div class="credit3">
+					<a href="https://www.icedropgames.com/">
 					<div>
 						Development
 					</div>
 					<div class="credits-middle-img-div">
 						<img src={credits_icedrop} class="credits-middle-img"/>
 					</div>
-					<div class="credits-middle-link">
-						<a href="https://www.icedropgames.com/">
-							WEBSITE >
-						</a>
-					</div>
+
+					</a>
 				</div>
-			</div>
-
-
-
-
-			<div class="content2-blurb">
-				Embark on a whimsical puzzle solving journey of discovering unrecognizable words,
-				each with their own special powers.<br>
-				Find and spell these never-before-seen words, each with their own mind-bending ability to help change the world around you.
-				<br><br>
-				Learn the rules as you go and uncover how each magical word can be utilized to your advantage. <br>Uncover deep and thoughtful mechanics that will challenge and delight you as you uncover LOK’s unexpected twists and surprises.
-
 			</div>
 		</div>
 	</div>
@@ -305,6 +288,9 @@
 			flex-direction: column !important;
 		}
 
+		.credits-middle {
+			column-gap: 4px !important;
+		}
 
 	}
 
@@ -323,6 +309,28 @@
 
 		.content2 {
 			max-width: 100% !important;
+		}
+
+		.links {
+			flex-direction: column;
+
+		}
+
+		.contact-link {
+			padding-bottom: 32px;
+		}
+
+		.button-primary {
+			font-size: 1em !important;
+			padding: 4px !important;
+		}
+
+		.email {
+			font-size: 1em !important;
+		}
+
+		.credits-middle {
+			flex-direction: column;
 		}
 	}
 
@@ -390,16 +398,16 @@
 		font-family: CenturyLocal;
 		font-weight: bold;
 		font-size: 2em;
-		margin-top: 32px;
-		margin-bottom: 32px;
+		margin-top: 16px;
+		margin-bottom: 16px;
 	}
 
 	.contact-link {
 		font-family: CenturyLocal;
 		font-weight: bold;
-		font-size: 1.5em;
+		font-size: 2em;
 		margin-top: 16px;
-		margin-bottom: 64px;
+		margin-bottom:16px;
 	}
 
 	.steam-img {
@@ -514,5 +522,27 @@
 		float: right;
 	}
 
+
+	.links {
+		display: flex;
+		column-gap: 64px;
+		row-gap: 64px;
+	}
+
+	.button-primary {
+		font-family: CenturyLocal;
+		font-size: 1.2em;
+		padding: 4px 16px;
+
+		border: 0px;
+		max-width: 80%;
+		margin-top: 4px;
+	}
+
+	.email {
+		font-family: CenturyLocal;
+		font-size: 1.2em;
+		max-width: 80%;
+	}
 
 </style>
