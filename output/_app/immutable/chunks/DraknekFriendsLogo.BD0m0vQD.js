@@ -1,0 +1,1 @@
+const s=""+new URL("../assets/logo.CRMdtwn0.png",import.meta.url).href,e=""+new URL("../assets/credits.B0qsMUou.png",import.meta.url).href,t=""+new URL("../assets/DraknekFriendsLogo.DrmVNbWv.png",import.meta.url).href;export{t as a,e as c,s as l};
