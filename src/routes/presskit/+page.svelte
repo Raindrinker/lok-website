@@ -69,6 +69,22 @@
                 <div class="presskit-text">
                     Draknek & Friends is ...
                 </div>
+
+                <div class="presskit-title1 pt2 pb">Awards</div>
+
+                <div class="images">
+                    <div class="image-box-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel1} class="other-img"/>
+                        </div>
+                    </div>
+                    <div class="image-bo-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel2} class="other-img"/>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="presskit-title1 pt2 pb">Videos</div>
 
                 <div class="videos">
@@ -100,6 +116,34 @@
 
                 <div class="presskit-title1 pt2 pb">Screenshots</div>
 
+                <div class="images">
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={ss1} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={ss2} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={ss3} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={ss4} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={ss5} class="screenshot-img"/>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="presskit-title1 pt2 pb">Gifs</div>
 
                 <div class="images">
@@ -127,7 +171,38 @@
 
                 <div class="presskit-title1 pt2 pb">Key Art</div>
 
+                <div class="images">
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={lok_steam} class="screenshot-img"/>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="presskit-title1 pt2 pb">Logos</div>
+
+                <div class="images">
+                    <div class="image-box image-box-sm">
+                        <div class="image-box-pad">
+                            <img src={logo} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box image-box-sm">
+                        <div class="image-box-pad">
+                            <img src={credits2} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box image-box-sm">
+                        <div class="image-box-pad">
+                            <img src={credits_letibus} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box image-box-sm">
+                        <div class="image-box-pad">
+                            <img src={credits_icedrop} class="screenshot-img"/>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="footer">
@@ -159,12 +234,23 @@
     import logo from '$lib/images/lok-digital/logo.png';
     import lok_steam from '$lib/images/lok-digital/library_600x900_new.jpg';
     import credits from '$lib/images/lok-digital/credits.png';
-    import credits2 from '$lib/images/lok-digital/DraknekFriendsLogo.png';
+    import credits_icedrop from '$lib/images/lok-digital/credits_icedrop.png';
+    import credits_letibus from '$lib/images/lok-digital/credits_letibus.png';
+    import credits2 from '$lib/images/lok-digital/DF_OutlineCutout.svg';
 
     import gif1 from "$lib/images/lok-digital/gif1.gif";
     import gif2 from "$lib/images/lok-digital/gif2.gif";
     import gif3 from "$lib/images/lok-digital/gif3.gif";
     import gif4 from "$lib/images/lok-digital/gif4.gif";
+
+    import ss1 from "$lib/images/lok-digital/screenshot1.png";
+    import ss2 from "$lib/images/lok-digital/screenshot2.png";
+    import ss3 from "$lib/images/lok-digital/screenshot3.png";
+    import ss4 from "$lib/images/lok-digital/screenshot4.png";
+    import ss5 from "$lib/images/lok-digital/screenshot5.png";
+
+    import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
+    import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
 
     let element;
 
@@ -242,6 +328,10 @@
         display: flex;
     }
 
+    .image-box-sm {
+        max-width: 300px !important;
+    }
+
     .image-box-pad {
         padding: 8px;
         padding-bottom: 0px;
@@ -251,6 +341,11 @@
 
     .screenshot-img {
         border: 4px solid black;
+        flex-shrink: 1;
+        width: 100%;
+    }
+
+    .other-img {
         flex-shrink: 1;
         width: 100%;
     }
