@@ -176,7 +176,7 @@
 
 		font-family: CenturyLocal;
 
-		background: #EEEEEE url("images/lok-bg.jpeg");
+		background: #EEEEEE url("/images/lok-bg.jpeg");
 		background-size: 600px;
 
 		position: relative;
