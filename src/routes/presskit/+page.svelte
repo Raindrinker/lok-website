@@ -7,29 +7,29 @@
 
         <div class="content2">
             <div class="presskit">
+                <div class="column12">
                 <div class="column1">
-                    <img src={lok_steam}/>
-
-                    <div class="presskit-title2 pt">By Draknek&Friends</div>
+                    <img src={keyart1} class="main-art"/>
 
                 </div>
                 <div class="column2">
                     <div class="presskit-title1 pt pb">Factsheet</div>
                     <div class="presskit-title2">Developer</div>
-                    <div class="presskit-text">Letibus Designs<br>Icedrop Games</div>
+                    <div class="presskit-text"><a href="https://www.blazgracar.com/letibus">Letibus Designs</a><br><a href="http://icedropgames.com">Icedrop Games</a></div>
                     <div class="presskit-title2 pt">Publisher</div>
-                    <div class="presskit-text">Draknek & Friends</div>
+                    <div class="presskit-text"><a href="https://www.draknek.org/">Draknek & Friends</a></div>
                     <!--<div class="presskit-title2 pt">Platforms</div>
                     <div class="presskit-text">Steam<br>Android<br>IOs</div>
 
                     <div class="presskit-title2 pt">Price</div>
                     <div class="presskit-text">???</div>-->
                     <div class="presskit-title2 pt">Website</div>
-                    <div class="presskit-text">lok-digital.com</div>
+                    <div class="presskit-text"><a href="http://lok-digital.com">lok-digital.com</a></div>
                     <div class="presskit-title2 pt">Contact</div>
-                    <div class="presskit-text">hello@lok-digital.com</div>
+                    <div class="presskit-text"><a href="mailto:hello@lok-digital.com">hello@lok-digital.com</a></div>
 
 
+                </div>
                 </div>
                 <div class="column3">
                     <div class="presskit-title1 pt pb">Pitch</div>
@@ -92,7 +92,7 @@
                 <div class="div-video">
                     <div class="video">
                         <iframe class="video-iframe"
-                                src="https://www.youtube.com/embed/v=U8p_XC-xY2w">
+                                src="https://www.youtube.com/embed/U8p_XC-xY2w">
                         </iframe>
                     </div>
                 </div>
@@ -112,6 +112,32 @@
                         </iframe>
                     </div>
                 </div>
+                </div>
+
+
+                <div class="presskit-title1 pt2 pb">Gifs</div>
+
+                <div class="images">
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif1} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif2} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif3} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={gif4} class="screenshot-img"/>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="presskit-title1 pt2 pb">Screenshots</div>
@@ -144,37 +170,28 @@
                     </div>
                 </div>
 
-                <div class="presskit-title1 pt2 pb">Gifs</div>
-
-                <div class="images">
-                    <div class="image-box">
-                        <div class="image-box-pad">
-                            <img src={gif1} class="screenshot-img"/>
-                        </div>
-                    </div>
-                    <div class="image-box">
-                        <div class="image-box-pad">
-                            <img src={gif2} class="screenshot-img"/>
-                        </div>
-                    </div>
-                    <div class="image-box">
-                        <div class="image-box-pad">
-                            <img src={gif3} class="screenshot-img"/>
-                        </div>
-                    </div>
-                    <div class="image-box">
-                        <div class="image-box-pad">
-                            <img src={gif4} class="screenshot-img"/>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="presskit-title1 pt2 pb">Key Art</div>
 
                 <div class="images">
                     <div class="image-box">
                         <div class="image-box-pad">
-                            <img src={lok_steam} class="screenshot-img"/>
+                            <img src={keyart1} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={keyart2} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={keyart3} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={keyart4} class="screenshot-img"/>
                         </div>
                     </div>
                 </div>
@@ -238,6 +255,11 @@
     import credits_letibus from '$lib/images/lok-digital/credits_letibus.png';
     import credits2 from '$lib/images/lok-digital/DF_OutlineCutout.svg';
 
+    import keyart1 from '$lib/images/lok-digital/keyart_v.png';
+    import keyart2 from '$lib/images/lok-digital/keyart_h.jpg';
+    import keyart3 from '$lib/images/lok-digital/keyart_h_2.png';
+    import keyart4 from '$lib/images/lok-digital/keyart_flat.png';
+
     import gif1 from "$lib/images/lok-digital/gif1.gif";
     import gif2 from "$lib/images/lok-digital/gif2.gif";
     import gif3 from "$lib/images/lok-digital/gif3.gif";
@@ -251,6 +273,7 @@
 
     import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
     import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
+    import steam_logo from "../../../.svelte-kit/output/server/entries/pages/main/_page.svelte.js";
 
     let element;
 
@@ -407,8 +430,8 @@
         }
 
         .column1 {
-            padding: 0px !important;
             padding-bottom: 32px !important;
+            padding-left: 0px !important;
         }
 
         .column3 {
@@ -416,12 +439,21 @@
         }
 
         .column2 {
-            padding: 0px !important;
             padding-bottom: 32px !important;
         }
 
         .videos {
             flex-direction: column;
+        }
+    }
+
+    @media (max-width: 800px) {
+         .column12 {
+             flex-direction: column !important;
+         }
+
+        .column2 {
+            padding-left: 0px !important;
         }
     }
 
@@ -443,7 +475,7 @@
     }
     .column2 {
         padding: 16px;
-        min-width: 200px;
+        min-width: 300px;
     }
     .column3 {
         padding: 16px;
@@ -504,6 +536,19 @@
         position: absolute;
         height: 100%;
         overflow: hidden;
+    }
+
+    .main-art {
+        max-width: 300px;
+    }
+
+    a {
+        text-decoration: underline !important;
+    }
+
+    .column12 {
+        display: flex;
+        flex-direction: row;
     }
 
 </style>
