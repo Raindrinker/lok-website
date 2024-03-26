@@ -32,36 +32,48 @@
                 </div>
                 </div>
                 <div class="column3">
-                    <div class="presskit-title1 pt pb">Pitch</div>
+                    <div class="presskit-title1 pt pb">About LOK Digital</div>
                     <div class="presskit-text">A whimsical adventure of magical words and their mind-bending mechanics
                     </div>
                     <div class="presskit-title1 pt pb">Description</div>
-                    <div class="presskit-text">Embark on a whimsical puzzle solving journey of discovering unrecognizable words,
-                        each with their own special powers.<br>
-                        Find and spell these never-before-seen words, each with their own mind-bending ability to help change the world around you.
+                    <div class="presskit-text">
+                        Learn world-changing words and master their mind-bending effects. Help the Lok creatures thrive in this charming puzzle adventure.
                         <br><br>
-                        Learn the rules as you go and uncover how each magical word can be utilized to your advantage. <br>Uncover deep and thoughtful mechanics that will challenge and delight you as you uncover LOK’s unexpected twists and surprises.
-                    </div>
-                    <div class="presskit-title1 pt pb">Features</div>
-                    <div class="presskit-text">Embark on a whimsical puzzle solving journey of discovering unrecognizable words,
-                        each with their own special powers.<br>
-                        Find and spell these never-before-seen words, each with their own mind-bending ability to help change the world around you.
+                        Discover magical words, and learn their rules as you go as each of these words has their own special ability to change the world around you. As the game evolves and ramps up the challenge delight in surprises as the shifting puzzles and introducing new words and unexpected ways they work together to elevate the gameplay.
                         <br><br>
-                        Learn the rules as you go and uncover how each magical word can be utilized to your advantage. <br>Uncover deep and thoughtful mechanics that will challenge and delight you as you uncover LOK’s unexpected twists and surprises.
+                        Guide the newly spawned adorable LOK creatures through the expansion of their civilization and summon
+                        them when you spell the magical words.
+                        LOK creatures can only live on blackened tiles, so by solving puzzles you're expanding their world and helping them thrive.
+                        Over the course of the game, you’ll watch their civilization develop and advance.
+                        <br><br>
+                        With cozy mechanics, charming hand drawn art, and deep mind-bending gameplay,
+                        LOK Digital invites you to tap into your logic side while curling up to enjoy the enchanting gameplay.
+
                     </div>
                 </div>
             </div>
             <div class="presskit2">
-                <div class="presskit-title1 pt pb">About the developers</div>
+                <div class="presskit-title1 pt pb">Behing LOK Digital:</div>
                 <div class="presskit-text">
-                    LOK Digital is a project born of an online collaboration between two artist/developers who will grab a drink together irl someday.
+                    LOK Digital is developed by Blaž Urban Gracar, a Slovenian artist and game developer and Ferran Ruiz Sala 'Raindrinker' (Icedrop Games), a game developer from Barcelona. LOK Digital began as a critically acclaimed puzzle book, LOK, by Blaž.
                     <br><br>
-                    Blaž Urban Gracar (Letibus Design) is a Slovenian artist.
+                    The two developers met when Blaž was a playtester of Ferran’s game, Constellations,
+                    and the two kept in touch over the years. Blaž posted a work-in-progress of LOK as a puzzle book on itch.io and Ferran
+                    found it so interesting he had to build a digital prototype and message Blaž on Twitter to try to convince him to let him work on a digital adaptation.
+                    Blaž saw this and was immediately blown away at how well the mechanics and idea organically translated into the videogame format.
+                    Shortly after the official launch of the book, the two began working together on translating the pen & paper mechanics
+                    to bring LOK digital to life.
+                    <br><br>
+                    The two developers, (who have not yet met in person but have promised to after the launch) hope that players sink into the cozy,
+                    relaxing world they’ve worked hard to cultivate while enjoying the simplicity of the mechanics in tandem with the deep
+                    surprises and discoveries they’ll find along the way.
+                    <br><br>
+                    <b>Blaž Urban Gracar</b> (Letibus Design) is a Slovenian artist.
                     As a game designer, he created the critically acclaimed puzzle book LOK, as well as the award-winning games Abdec and All Is Bomb.
                     He is also a musician (composing award-winning music for the theatre, producing left-field electronica, playing keyboards),
                     a writer (publishing poetry, prose and comic books) and a filmmaker (editing and animating short films).
                     <br><br>
-                    Ferran Ruiz Sala 'Raindrinker' (Icedrop Games) is a game developer from Barcelona who has a streak for pixelart, art in general and design.
+                    <b>Ferran Ruiz Sala</b> 'Raindrinker' (Icedrop Games) is a game developer from Barcelona who has a streak for pixelart, art in general and design.
                     Learnt game dev through game jams, both local and online, and after working for a couple of indie companies started developing his own projects and joined the Astra Fellowship.
                     He's now juggling way too many projects while teaching some classes on game development and pixel art.
                 </div>
@@ -293,7 +305,6 @@
 
     import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
     import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
-    import steam_logo from "../../../.svelte-kit/output/server/entries/pages/main/_page.svelte.js";
 
     let element;
 
@@ -589,6 +600,10 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+    }
+
+    .presskit-text {
+        text-align: justify;
     }
 
 </style>
