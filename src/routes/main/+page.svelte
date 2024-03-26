@@ -145,6 +145,10 @@
 
 			</div>
 
+			<div class="separator separator-3">
+				<img src={lokites3} class="separator-lokites2"/>
+			</div>
+
 
 
 
@@ -174,6 +178,7 @@
 
 	import lokites1 from '$lib/images/Figures1.jpg';
 	import lokites2 from '$lib/images/Figures2.jpg';
+	import lokites3 from '$lib/images/Figures3.jpg';
 
 	import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
 	import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
@@ -562,6 +567,10 @@
 		bottom: 32px;
 		right: 64px;
 		float: right;
+	}
+
+	.separator-3 {
+		margin-bottom:  0;
 	}
 
 

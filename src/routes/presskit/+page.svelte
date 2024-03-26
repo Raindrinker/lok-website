@@ -67,11 +67,12 @@
                 </div>
                 <div class="presskit-title1 pt2 pb">About the publisher</div>
                 <div class="presskit-text">
-                    Draknek & Friends is ...
+                    Draknek & Friends is a award-winning developer and publisher, releasing lovingly crafted puzzle games since 2013. Their games aim to be elegant and challenging, cultivating persistence and logical thinking.
                 </div>
 
                 <div class="presskit-title1 pt2 pb">Awards</div>
 
+                <div class="awards">
                 <div class="images">
                     <div class="image-box-laurel image-box-sm">
                         <div class="">
@@ -83,6 +84,7 @@
                             <img src={laurel2} class="other-img"/>
                         </div>
                     </div>
+                </div>
                 </div>
 
                 <div class="presskit-title1 pt2 pb">Videos</div>
@@ -194,6 +196,21 @@
                             <img src={keyart4} class="screenshot-img"/>
                         </div>
                     </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={keyart5} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={keyart6} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={keyart7} class="screenshot-img"/>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="presskit-title1 pt2 pb">Logos</div>
@@ -249,16 +266,19 @@
     import { onMount } from 'svelte';
 
     import logo from '$lib/images/lok-digital/logo.png';
-    import lok_steam from '$lib/images/lok-digital/library_600x900_new.jpg';
+    import lok_steam from '$lib/images/lok-digital/keyart_main.png';
     import credits from '$lib/images/lok-digital/credits.png';
     import credits_icedrop from '$lib/images/lok-digital/credits_icedrop.png';
     import credits_letibus from '$lib/images/lok-digital/credits_letibus.png';
     import credits2 from '$lib/images/lok-digital/DF_OutlineCutout.svg';
 
-    import keyart1 from '$lib/images/lok-digital/keyart_v.png';
-    import keyart2 from '$lib/images/lok-digital/keyart_h.jpg';
-    import keyart3 from '$lib/images/lok-digital/keyart_h_2.png';
-    import keyart4 from '$lib/images/lok-digital/keyart_flat.png';
+    import keyart1 from '$lib/images/lok-digital/keyart_main.png';
+    import keyart2 from '$lib/images/lok-digital/keyart_flat.jpg';
+    import keyart3 from '$lib/images/lok-digital/keyart_flat2.png';
+    import keyart4 from '$lib/images/lok-digital/keyart_flat3.png';
+    import keyart5 from '$lib/images/lok-digital/keyart_flat_zoom.png';
+    import keyart6 from '$lib/images/lok-digital/keyart_square.jpg';
+    import keyart7 from '$lib/images/lok-digital/keyart_square3.png';
 
     import gif1 from "$lib/images/lok-digital/gif1.gif";
     import gif2 from "$lib/images/lok-digital/gif2.gif";
@@ -454,6 +474,19 @@
 
         .column2 {
             padding-left: 0px !important;
+            align-items: start !important;
+            justify-content: start !important;
+        }
+
+        .content {
+            max-width:  100% !important;
+        }
+
+        .column1 {
+            display: flex;
+            align-items: center !important;
+            justify-content: center !important;
+            padding-right: 0 !important;
         }
     }
 
@@ -549,6 +582,13 @@
     .column12 {
         display: flex;
         flex-direction: row;
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
 </style>
