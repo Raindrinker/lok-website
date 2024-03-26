@@ -13,9 +13,9 @@
 
                 </div>
                 <div class="column2">
-                    <div class="presskit-title1 pt pb">Factsheet</div>
+                    <div class="presskit-title1 pt pb no-margin-top">Factsheet</div>
                     <div class="presskit-title2">Developer</div>
-                    <div class="presskit-text"><a href="https://www.blazgracar.com/letibus">Letibus Designs</a><br><a href="http://icedropgames.com">Icedrop Games</a></div>
+                    <div class="presskit-text"><a href="https://www.blazgracar.com/letibus">Letibus Design</a><br><a href="http://icedropgames.com">Icedrop Games</a></div>
                     <div class="presskit-title2 pt">Publisher</div>
                     <div class="presskit-text"><a href="https://www.draknek.org/">Draknek & Friends</a></div>
                     <!--<div class="presskit-title2 pt">Platforms</div>
@@ -32,7 +32,7 @@
                 </div>
                 </div>
                 <div class="column3">
-                    <div class="presskit-title1 pt pb">About LOK Digital</div>
+                    <div class="presskit-title1 pt pb no-margin-top">About LOK Digital</div>
                     <div class="presskit-text">A whimsical adventure of magical words and their mind-bending mechanics
                     </div>
                     <div class="presskit-title1 pt pb">Description</div>
@@ -53,21 +53,24 @@
                 </div>
             </div>
             <div class="presskit2">
-                <div class="presskit-title1 pt pb">Behing LOK Digital:</div>
+                <div class="presskit-title1 pt pb">Behind LOK Digital</div>
                 <div class="presskit-text">
                     LOK Digital is developed by Blaž Urban Gracar, a Slovenian artist and game developer and Ferran Ruiz Sala 'Raindrinker' (Icedrop Games), a game developer from Barcelona. LOK Digital began as a critically acclaimed puzzle book, LOK, by Blaž.
                     <br><br>
                     The two developers met when Blaž was a playtester of Ferran’s game, Constellations,
                     and the two kept in touch over the years. Blaž posted a work-in-progress of LOK as a puzzle book on itch.io and Ferran
                     found it so interesting he had to build a digital prototype and message Blaž on Twitter to try to convince him to let him work on a digital adaptation.
-                    Blaž saw this and was immediately blown away at how well the mechanics and idea organically translated into the videogame format.
+                    Blaž saw this and was immediately blown away at how well the mechanics translated into the videogame format.
                     Shortly after the official launch of the book, the two began working together on translating the pen & paper mechanics
                     to bring LOK digital to life.
                     <br><br>
                     The two developers, (who have not yet met in person but have promised to after the launch) hope that players sink into the cozy,
                     relaxing world they’ve worked hard to cultivate while enjoying the simplicity of the mechanics in tandem with the deep
                     surprises and discoveries they’ll find along the way.
-                    <br><br>
+
+                </div>
+                <div class="presskit-title1 pt pb">Developer bios</div>
+                <div class="presskit-text">
                     <b>Blaž Urban Gracar</b> (Letibus Design) is a Slovenian artist.
                     As a game designer, he created the critically acclaimed puzzle book LOK, as well as the award-winning games Abdec and All Is Bomb.
                     He is also a musician (composing award-winning music for the theatre, producing left-field electronica, playing keyboards),
@@ -77,7 +80,8 @@
                     Learnt game dev through game jams, both local and online, and after working for a couple of indie companies started developing his own projects and joined the Astra Fellowship.
                     He's now juggling way too many projects while teaching some classes on game development and pixel art.
                 </div>
-                <div class="presskit-title1 pt2 pb">About the publisher</div>
+
+                <div class="presskit-title1 pt pb">About the publisher</div>
                 <div class="presskit-text">
                     Draknek & Friends is a award-winning developer and publisher, releasing lovingly crafted puzzle games since 2013. Their games aim to be elegant and challenging, cultivating persistence and logical thinking.
                 </div>
@@ -103,29 +107,18 @@
 
                 <div class="videos">
 
-                <div class="div-video">
-                    <div class="video">
-                        <iframe class="video-iframe"
-                                src="https://www.youtube.com/embed/U8p_XC-xY2w">
-                        </iframe>
+
+                <div class="div-video-top">
+                    <div class="div-video">
+                        <div class="video">
+                            <iframe class="video-iframe"
+                                    src="https://www.youtube.com/embed/dyzWGS8ZT5Q">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
 
-                <div class="div-video">
-                    <div class="video">
-                        <iframe class="video-iframe"
-                                src="https://www.youtube.com/embed/dyzWGS8ZT5Q">
-                        </iframe>
-                    </div>
-                </div>
 
-                <div class="div-video">
-                    <div class="video">
-                        <iframe class="video-iframe"
-                                src="https://www.youtube.com/embed/cmSZ4RD3o6c">
-                        </iframe>
-                    </div>
-                </div>
                 </div>
 
 
@@ -134,22 +127,22 @@
                 <div class="images">
                     <div class="image-box">
                         <div class="image-box-pad">
-                            <img src={gif1} class="screenshot-img"/>
+                            <img src={gif1} class="screenshot-gif"/>
                         </div>
                     </div>
                     <div class="image-box">
                         <div class="image-box-pad">
-                            <img src={gif2} class="screenshot-img"/>
+                            <img src={gif2} class="screenshot-gif"/>
                         </div>
                     </div>
                     <div class="image-box">
                         <div class="image-box-pad">
-                            <img src={gif3} class="screenshot-img"/>
+                            <img src={gif3} class="screenshot-gif"/>
                         </div>
                     </div>
                     <div class="image-box">
                         <div class="image-box-pad">
-                            <img src={gif4} class="screenshot-img"/>
+                            <img src={gif4} class="screenshot-gif"/>
                         </div>
                     </div>
                 </div>
@@ -180,6 +173,11 @@
                     <div class="image-box">
                         <div class="image-box-pad">
                             <img src={ss5} class="screenshot-img"/>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-box-pad">
+                            <img src={ss6} class="screenshot-img"/>
                         </div>
                     </div>
                 </div>
@@ -292,16 +290,17 @@
     import keyart6 from '$lib/images/lok-digital/keyart_square.jpg';
     import keyart7 from '$lib/images/lok-digital/keyart_square3.png';
 
-    import gif1 from "$lib/images/lok-digital/gif1.gif";
-    import gif2 from "$lib/images/lok-digital/gif2.gif";
-    import gif3 from "$lib/images/lok-digital/gif3.gif";
-    import gif4 from "$lib/images/lok-digital/gif4.gif";
+    import gif1 from "$lib/images/gifs/gif1.gif";
+    import gif2 from "$lib/images/gifs/gif2.gif";
+    import gif3 from "$lib/images/gifs/gif3.gif";
+    import gif4 from "$lib/images/gifs/gif4.gif";
 
-    import ss1 from "$lib/images/lok-digital/screenshot1.png";
-    import ss2 from "$lib/images/lok-digital/screenshot2.png";
-    import ss3 from "$lib/images/lok-digital/screenshot3.png";
-    import ss4 from "$lib/images/lok-digital/screenshot4.png";
-    import ss5 from "$lib/images/lok-digital/screenshot5.png";
+    import ss1 from "$lib/images/screenshots/screenshot1.png";
+    import ss2 from "$lib/images/screenshots/screenshot2.png";
+    import ss3 from "$lib/images/screenshots/screenshot3.png";
+    import ss4 from "$lib/images/screenshots/screenshot4.png";
+    import ss5 from "$lib/images/screenshots/screenshot5.png";
+    import ss6 from "$lib/images/screenshots/screenshot6.png";
 
     import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
     import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
@@ -391,11 +390,19 @@
         padding-bottom: 0px;
         padding-top: 6px;
         width: 100%;
+        max-height: none;
+    }
+
+    .screenshot-gif {
+        border: 4px solid black;
+        flex-shrink: 0;
+        flex-grow: 1;
     }
 
     .screenshot-img {
         border: 4px solid black;
-        flex-shrink: 1;
+        flex-shrink: 0;
+        flex-grow: 1;
         width: 100%;
     }
 
@@ -417,8 +424,23 @@
         justify-content: center;
         flex-grow: 0;
     }
+
+    .footer-img.draknek {
+        width: 200px;
+    }
+
     .empty {
         flex-grow: 1;
+    }
+
+    @media (max-width: 1600px) {
+        .presskit {
+            flex-direction: column !important;
+        }
+
+        .column3 {
+            padding: 16px 0 !important;
+        }
     }
 
     @media (max-width: 1250px) {
@@ -456,9 +478,7 @@
             visibility: hidden;
         }
 
-        .presskit {
-            flex-direction: column;
-        }
+
 
         .column1 {
             padding-bottom: 32px !important;
@@ -528,6 +548,7 @@
     .presskit-title1 {
         font-size: 1.5em;
         font-weight: bold;
+        margin-top: 32px;
     }
 
     .presskit-title2 {
@@ -557,14 +578,23 @@
         display: flex;
     }
 
-    .div-video {
-        padding-bottom: 16px;
-        position: relative;
+    .div-video-top {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .div-video {
+        padding-bottom: 16px;
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 8px;
+        height: auto;
     }
 
     .video {
@@ -573,6 +603,7 @@
         width: 100%;
         text-align: left;
         max-width: 646px;
+        max-height: 450px !important;
     }
 
     .video-iframe {
@@ -580,6 +611,7 @@
         position: absolute;
         height: 100%;
         overflow: hidden;
+        max-height: 450px !important;
     }
 
     .main-art {
@@ -604,6 +636,10 @@
 
     .presskit-text {
         text-align: justify;
+    }
+
+    .no-margin-top {
+        margin-top: 0 !important;
     }
 
 </style>
