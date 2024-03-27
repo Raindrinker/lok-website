@@ -135,7 +135,7 @@
 			<div class="book-duet">
 				<img src={book} class="book-img"/>
 				<div class="book-duet-text">
-					An adaptation of the acclaimed pen&paper puzzle book LOK
+					An adaptation of the acclaimed pen & paper puzzle book LOK
 					<a href="https://www.blazgracar.com/lok">
 						<div class="book-link">
 							ABOUT THE BOOK >

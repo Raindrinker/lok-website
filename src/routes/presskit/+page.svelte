@@ -397,6 +397,7 @@
         border: 4px solid black;
         flex-shrink: 0;
         flex-grow: 1;
+        max-width: 100%;
     }
 
     .screenshot-img {
@@ -416,6 +417,8 @@
         padding-left: 32px;
         padding-right: 16px;
         padding-bottom: 16px;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-img {
@@ -518,6 +521,10 @@
             align-items: center !important;
             justify-content: center !important;
             padding-right: 0 !important;
+        }
+
+        .content2 {
+            margin-bottom: 0px !important;
         }
     }
 
@@ -632,10 +639,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-    }
-
-    .presskit-text {
-        text-align: justify;
     }
 
     .no-margin-top {
