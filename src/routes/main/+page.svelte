@@ -41,7 +41,7 @@
 			<div class="div-video">
 				<div class="video">
 					<iframe class="video-iframe"
-							src="https://www.youtube.com/embed/dyzWGS8ZT5Q">
+							src="https://www.youtube.com/embed/dyzWGS8ZT5Q?rel=0&modestbranding=1&autohide=1">
 					</iframe>
 				</div>
 			</div>
