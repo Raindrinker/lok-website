@@ -52,10 +52,12 @@
 
 
 
-                <div class="steam-embed-mobile">
-                    <img src={steam_logo} class="steam-img"/>
-                    <u>LOK Digital on Steam</u>
-                </div>
+                <a href="https://store.steampowered.com/app/2207440/LOK_Digital/" target="_blank">
+                    <div class="steam-embed-mobile">
+                        <img src={steam_logo} class="steam-img"/>
+                        <u>LOK Digital on Steam</u>
+                    </div>
+                </a>
 
 
                 <form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form">

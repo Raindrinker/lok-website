@@ -83,7 +83,7 @@
 
                 <div class="presskit-title1 pt pb">About the publisher</div>
                 <div class="presskit-text">
-                    Draknek & Friends is a award-winning developer and publisher, releasing lovingly crafted puzzle games since 2013. Their games aim to be elegant and challenging, cultivating persistence and logical thinking.
+                    Draknek & Friends is an award-winning developer and publisher, releasing lovingly crafted puzzle games since 2013. Their games aim to be elegant and challenging, cultivating persistence and logical thinking.
                 </div>
 
                 <div class="presskit-title1 pt2 pb">Awards</div>
