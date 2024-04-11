@@ -37,9 +37,9 @@
                     </div>
                     <div class="presskit-title1 pt pb">Description</div>
                     <div class="presskit-text">
-                        Learn world-changing words and master their mind-bending effects. Help the Lok creatures thrive in this charming puzzle adventure.
+                        Learn world-changing words and master their mind-bending effects. Help the LOK creatures thrive in this charming puzzle adventure.
                         <br><br>
-                        Discover magical words, and learn their rules as you go as each of these words has their own special ability to change the world around you. As the game evolves and ramps up the challenge delight in surprises as the shifting puzzles and introducing new words and unexpected ways they work together to elevate the gameplay.
+                        Discover magical words and learn their rules as you go, as each of these words has their own special ability to change the world around you.
                         <br><br>
                         Guide the newly spawned adorable LOK creatures through the expansion of their civilization and summon
                         them when you spell the magical words.
