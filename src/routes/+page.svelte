@@ -23,6 +23,7 @@
             <img src={laurel3} class="laurel"/>
             <img src={laurel4} class="laurel"/>
             <img src={laurel5} class="laurel"/>
+            <img src={laurel6} class="laurel"/>
 
         </div>
 
@@ -43,6 +44,7 @@
         <div class="laurels laurels-mobile">
 
             <img src={laurel5} class="laurel"/>
+            <img src={laurel6} class="laurel"/>
 
         </div>
 
@@ -199,6 +201,7 @@
     import laurel3 from '$lib/laurels-develop-2024.png';
     import laurel4 from '$lib/laurels-PCGaming-2024.png';
     import laurel5 from '$lib/laurels-indie-game-contest.png';
+    import laurel6 from '$lib/laurels-future-play.png';
 
 </script>
 
