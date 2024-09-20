@@ -25,7 +25,7 @@
                 <br><br>
                 <b style="font-size: 24px">Contacting Us</b>
                 <br><br>
-                LOK Digital is published by Draknek.
+                LOK Digital is published by <a href="https://www.draknek.org/" class="link">Draknek</a>.
                 <br><br>
                 If you have any questions about this Privacy Policy, please <a href="mailto:hello@lok-digital.com" class="link">contact us</a>.
 
