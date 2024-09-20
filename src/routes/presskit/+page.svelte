@@ -33,26 +33,38 @@
                 </div>
                 <div class="column3">
                     <div class="presskit-title1 pt pb no-margin-top">About LOK Digital</div>
-                    <div class="presskit-text">A whimsical adventure of magical words and their mind-bending mechanics
+                    <div class="presskit-text">Learn a cryptic language of magical words and master their mind-bending effects.
                     </div>
                     <div class="presskit-title1 pt pb">Description</div>
                     <div class="presskit-text">
-                        Learn world-changing words and master their mind-bending effects. Help the LOK creatures thrive in this charming puzzle adventure.
+                        Learn the rules as you go and uncover how each new word has its own special ability to change the world around you in deep and surprising ways. Expand your vocabulary through 15 distinct worlds, each one exploring a new mechanic and completely shaking up the way you solve puzzles.
                         <br><br>
-                        Discover magical words and learn their rules as you go, as each of these words has their own special ability to change the world around you.
+                        With approachable mechanics and mind-bending gameplay, LOK Digital invites you to return every day for new procedurally generated puzzles showcasing the breadth and depth of mechanics.
                         <br><br>
-                        Guide the newly spawned adorable LOK creatures through the expansion of their civilization and summon
-                        them when you spell the magical words.
-                        LOK creatures can only live on blackened tiles, so by solving puzzles you're expanding their world and helping them thrive.
-                        Over the course of the game, you’ll watch their civilization develop and advance.
+                        Bring the LOK creatures to life by spelling words that shape their world. They can only live on blackened tiles, so by solving puzzles you're expanding their horizons and helping their civilization thrive.
                         <br><br>
-                        With cozy mechanics, charming hand drawn art, and deep mind-bending gameplay,
-                        LOK Digital invites you to tap into your logic side while curling up to enjoy the enchanting gameplay.
 
                     </div>
+
                 </div>
             </div>
             <div class="presskit2">
+
+                <div class="presskit-title1 pt pb">Features</div>
+                <div class="presskit-text">
+                    <ul>
+                        <li>Intuitive mechanics and many magical words to find and learn</li>
+                        <li>Elegant, hand-drawn art style and meditative, entrancing soundtrack</li>
+                        <li>Learn the nuances of the LOK language across the 150+ puzzle campaign</li>
+                        <li>Demonstrate your mastery of the mechanics in the expertly crafted daily puzzle mode and compete on the leaderboards</li>
+                        <li>Go up against friends, family and the world in the daily leaderboards</li>
+                        <li>Based on the critically acclaimed puzzle book, LOK</li>
+                        <li>Published by the award-winning puzzle experts, Draknek & Friends, the team behind A Monster’s Expedition, Cosmic Express, Bonfire Peaks, and more</li>
+
+                    </ul>
+
+                </div>
+                
                 <div class="presskit-title1 pt pb">Behind LOK Digital</div>
                 <div class="presskit-text">
                     LOK Digital is developed by Blaž Urban Gracar, a Slovenian artist and game developer and Ferran Ruiz Sala 'Raindrinker' (Icedrop Games), a game developer from Barcelona. LOK Digital began as a critically acclaimed puzzle book, LOK, by Blaž.
@@ -98,6 +110,21 @@
                     <div class="image-bo-laurel image-box-sm">
                         <div class="">
                             <img src={laurel2} class="other-img"/>
+                        </div>
+                    </div>
+                    <div class="image-bo-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel3} class="other-img"/>
+                        </div>
+                    </div>
+                    <div class="image-bo-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel4} class="other-img"/>
+                        </div>
+                    </div>
+                    <div class="image-bo-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel5} class="other-img"/>
                         </div>
                     </div>
                 </div>
@@ -304,6 +331,9 @@
 
     import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
     import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
+    import laurel3 from '$lib/laurels-develop-2024.png';
+    import laurel4 from '$lib/laurels-PCGaming-2024.png';
+    import laurel5 from '$lib/laurels-indie-game-contest.png';
 
     let element;
 

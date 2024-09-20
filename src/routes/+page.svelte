@@ -10,20 +10,19 @@
 
         <div class="logo-img-div">
 
-            <div class="laurels laurels-pc">
-
-                <img src={laurel1} class="laurel"/>
-
-            </div>
-
             <img src={logo} class="logo-img"/>
 
-            <div class="laurels laurels-pc">
 
-                <img src={laurel2} class="laurel"/>
+        </div>
 
-            </div>
 
+        <div class="laurels laurels-pc">
+
+            <img src={laurel1} class="laurel"/>
+            <img src={laurel2} class="laurel"/>
+            <img src={laurel3} class="laurel"/>
+            <img src={laurel4} class="laurel"/>
+            <img src={laurel5} class="laurel"/>
 
         </div>
 
@@ -31,6 +30,19 @@
 
             <img src={laurel1} class="laurel"/>
             <img src={laurel2} class="laurel"/>
+
+        </div>
+
+        <div class="laurels laurels-mobile">
+
+            <img src={laurel3} class="laurel"/>
+            <img src={laurel4} class="laurel"/>
+
+        </div>
+
+        <div class="laurels laurels-mobile">
+
+            <img src={laurel5} class="laurel"/>
 
         </div>
 
@@ -184,6 +196,9 @@
 
     import laurel1 from '$lib/laurels-thinky-awards-2024.svg';
     import laurel2 from '$lib/laurels-wasd-curios-2024.svg';
+    import laurel3 from '$lib/laurels-develop-2024.png';
+    import laurel4 from '$lib/laurels-PCGaming-2024.png';
+    import laurel5 from '$lib/laurels-indie-game-contest.png';
 
 </script>
 
@@ -380,6 +395,10 @@
         .laurels-pc {
             display: none !important;
         }
+    }
+
+    .laurels-pc {
+        padding-bottom: 32px;
     }
 
     .decor1 {
