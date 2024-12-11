@@ -100,7 +100,7 @@
                 <a href="https://play.google.com/store/apps/details?id=com.IcedropGames.LOK" target="_blank">
                     <div class="android-embed">
                         <img src={android_logo} class="steam-img"/>
-                        <u>LOK Digital on Android</u>
+                        <u>Android: Jan 23</u>
                     </div>
                 </a>
 
@@ -109,7 +109,7 @@
                 <a href="https://apps.apple.com/app/id6476513210" target="_blank">
                     <div class="ios-embed">
                         <img src={ios_logo} class="steam-img"/>
-                        <u>LOK Digital on iOS</u>
+                        <u>iOS: Jan 23</u>
                     </div>
                 </a>
                 </div>
