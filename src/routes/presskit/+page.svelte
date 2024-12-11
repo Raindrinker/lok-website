@@ -132,6 +132,16 @@
                             <img src={laurel6} class="other-img"/>
                         </div>
                     </div>
+                    <div class="image-bo-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel7} class="other-img"/>
+                        </div>
+                    </div>
+                    <div class="image-bo-laurel image-box-sm">
+                        <div class="">
+                            <img src={laurel8} class="other-img"/>
+                        </div>
+                    </div>
                 </div>
                 </div>
 
@@ -340,6 +350,9 @@
     import laurel4 from '$lib/laurels-PCGaming-2024.png';
     import laurel5 from '$lib/laurels-indie-game-contest.png';
     import laurel6 from '$lib/laurels-future-play.png';
+    import laurel7 from '$lib/laurels-dotd.png';
+    import laurel8 from '$lib/laurels-playtopia.png';
+
 
     let element;
 

@@ -22,10 +22,15 @@
             <img src={laurel2} class="laurel"/>
             <img src={laurel3} class="laurel"/>
             <img src={laurel4} class="laurel"/>
-            <img src={laurel5} class="laurel"/>
-            <img src={laurel6} class="laurel"/>
 
         </div>
+
+        <div class="laurels laurels-pc">
+        <img src={laurel5} class="laurel"/>
+        <img src={laurel6} class="laurel"/>
+        <img src={laurel7} class="laurel"/>
+        <img src={laurel8} class="laurel"/>
+            </div>
 
         <div class="laurels laurels-mobile">
 
@@ -45,6 +50,13 @@
 
             <img src={laurel5} class="laurel"/>
             <img src={laurel6} class="laurel"/>
+
+        </div>
+
+        <div class="laurels laurels-mobile">
+
+            <img src={laurel7} class="laurel"/>
+            <img src={laurel8} class="laurel"/>
 
         </div>
 
@@ -73,6 +85,30 @@
                     </div>
                 </a>
 
+                <a href="https://draknek.itch.io/lok-digital" target="_blank">
+                    <div class="itch-embed-mobile">
+                        <img src={itch_logo} class="steam-img"/>
+                        <u>LOK Digital on itch.io</u>
+                    </div>
+                </a>
+
+                <div class="itch-widget">
+                <iframe frameborder="0" src="https://itch.io/embed/3136851" width="552" height="167"><a href="https://draknek.itch.io/lok-digital">LOK Digital by Draknek &amp; Friends, Letibus Design, IcedropGames</a></iframe>
+                </div>
+
+                <a href="https://play.google.com/store/apps/details?id=com.IcedropGames.LOK" target="_blank">
+                    <div class="android-embed">
+                        <img src={android_logo} class="steam-img"/>
+                        <u>LOK Digital on Android</u>
+                    </div>
+                </a>
+
+                <a href="https://apps.apple.com/app/id6476513210" target="_blank">
+                    <div class="ios-embed">
+                        <img src={ios_logo} class="steam-img"/>
+                        <u>LOK Digital on iOS</u>
+                    </div>
+                </a>
 
                 <form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form">
                     <input type="email" name="email" id="email" class="email" placeholder="email address" required />
@@ -189,6 +225,9 @@
     import credits_letibus from '$lib/images/lok-digital/credits_letibus.png';
     import credits2 from '$lib/images/lok-digital/DF_OutlineCutout.svg';
     import steam_logo from '$lib/images/steam.png';
+    import android_logo from '$lib/images/android.png';
+    import ios_logo from '$lib/images/apple.png';
+    import itch_logo from '$lib/images/itchio.png';
     import decoration1 from '$lib/images/lok-digital/decoration1.png';
     import decoration2 from '$lib/images/lok-digital/decoration2.png';
 
@@ -202,6 +241,8 @@
     import laurel4 from '$lib/laurels-PCGaming-2024.png';
     import laurel5 from '$lib/laurels-indie-game-contest.png';
     import laurel6 from '$lib/laurels-future-play.png';
+    import laurel7 from '$lib/laurels-dotd.png';
+    import laurel8 from '$lib/laurels-playtopia.png';
 
 </script>
 
@@ -353,7 +394,11 @@
             display: none;
         }
 
-        .steam-embed-mobile {
+        .itch-widget {
+            display: none;
+        }
+
+        .steam-embed-mobile, .itch-embed-mobile {
             display: flex !important;
         }
 
@@ -484,12 +529,12 @@
         max-width: 64px;
     }
 
-    .steam-embed-mobile {
+    .steam-embed-mobile, .ios-embed, .android-embed, .itch-embed-mobile {
         font-weight: bold;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 32px;
+        margin-top: 16px;
         margin-bottom: 32px;
         display: none;
     }
@@ -637,6 +682,22 @@
 
     .laurels-mobile .laurel {
         max-width: 160px;
+    }
+
+    .itch-widget {
+        margin-bottom: 32px;
+    }
+
+    .android-embed {
+        display: flex !important;
+    }
+
+    .ios-embed {
+        display: flex !important;
+    }
+
+    .mailing-form {
+        margin-top:  32px;
     }
 
 </style>
