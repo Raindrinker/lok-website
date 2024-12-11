@@ -104,12 +104,12 @@
                 <div class="images">
                     <div class="image-box-laurel image-box-sm">
                         <div class="">
-                            <img src={laurel1} class="other-img"/>
+                            <img src={laurel7} class="other-img"/>
                         </div>
                     </div>
                     <div class="image-bo-laurel image-box-sm">
                         <div class="">
-                            <img src={laurel2} class="other-img"/>
+                            <img src={laurel1} class="other-img"/>
                         </div>
                     </div>
                     <div class="image-bo-laurel image-box-sm">
@@ -134,7 +134,7 @@
                     </div>
                     <div class="image-bo-laurel image-box-sm">
                         <div class="">
-                            <img src={laurel7} class="other-img"/>
+                            <img src={laurel2} class="other-img"/>
                         </div>
                     </div>
                     <div class="image-bo-laurel image-box-sm">

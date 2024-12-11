@@ -18,8 +18,8 @@
 
         <div class="laurels laurels-pc">
 
+            <img src={laurel7} class="laurel"/>
             <img src={laurel1} class="laurel"/>
-            <img src={laurel2} class="laurel"/>
             <img src={laurel3} class="laurel"/>
             <img src={laurel4} class="laurel"/>
 
@@ -28,14 +28,14 @@
         <div class="laurels laurels-pc">
         <img src={laurel5} class="laurel"/>
         <img src={laurel6} class="laurel"/>
-        <img src={laurel7} class="laurel"/>
         <img src={laurel8} class="laurel"/>
+            <img src={laurel2} class="laurel"/>
             </div>
 
         <div class="laurels laurels-mobile">
 
+            <img src={laurel7} class="laurel"/>
             <img src={laurel1} class="laurel"/>
-            <img src={laurel2} class="laurel"/>
 
         </div>
 
@@ -55,8 +55,8 @@
 
         <div class="laurels laurels-mobile">
 
-            <img src={laurel7} class="laurel"/>
             <img src={laurel8} class="laurel"/>
+            <img src={laurel2} class="laurel"/>
 
         </div>
 
@@ -67,7 +67,7 @@
                 <div class="div-video">
                     <div class="video">
                         <iframe class="video-iframe"
-                                src="https://www.youtube.com/embed/dyzWGS8ZT5Q?rel=0&modestbranding=1&autohide=1">
+                                src="https://www.youtube.com/embed/ofCYQGRWcS4?rel=0&modestbranding=1&autohide=1">
                         </iframe>
                     </div>
                 </div>
@@ -96,6 +96,7 @@
                 <iframe frameborder="0" src="https://itch.io/embed/3136851" width="552" height="167"><a href="https://draknek.itch.io/lok-digital">LOK Digital by Draknek &amp; Friends, Letibus Design, IcedropGames</a></iframe>
                 </div>
 
+                <div class="mobile-links">
                 <a href="https://play.google.com/store/apps/details?id=com.IcedropGames.LOK" target="_blank">
                     <div class="android-embed">
                         <img src={android_logo} class="steam-img"/>
@@ -103,12 +104,15 @@
                     </div>
                 </a>
 
+                    <div class="h-sep"></div>
+
                 <a href="https://apps.apple.com/app/id6476513210" target="_blank">
                     <div class="ios-embed">
                         <img src={ios_logo} class="steam-img"/>
                         <u>LOK Digital on iOS</u>
                     </div>
                 </a>
+                </div>
 
                 <form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form">
                     <input type="email" name="email" id="email" class="email" placeholder="email address" required />
@@ -698,6 +702,15 @@
 
     .mailing-form {
         margin-top:  32px;
+    }
+
+    .mobile-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .h-sep {
+        width: 42px;
     }
 
 </style>
