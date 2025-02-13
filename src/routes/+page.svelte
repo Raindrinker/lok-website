@@ -32,6 +32,10 @@
             <img src={laurel2} class="laurel"/>
             </div>
 
+        <div class="laurels laurels-pc">
+            <img src={laurel9} class="laurel"/>
+        </div>
+
         <div class="laurels laurels-mobile">
 
             <img src={laurel7} class="laurel"/>
@@ -59,6 +63,13 @@
             <img src={laurel2} class="laurel"/>
 
         </div>
+
+        <div class="laurels laurels-mobile">
+
+            <img src={laurel9} class="laurel"/>
+
+        </div>
+
 
         <div class="content2">
             <div class="content-top">
@@ -100,7 +111,7 @@
                 <a href="https://play.google.com/store/apps/details?id=com.IcedropGames.LOK" target="_blank">
                     <div class="android-embed">
                         <img src={android_logo} class="steam-img"/>
-                        <u>Android: Jan 23</u>
+                        <u>Android</u>
                     </div>
                 </a>
 
@@ -109,7 +120,7 @@
                 <a href="https://apps.apple.com/app/id6476513210" target="_blank">
                     <div class="ios-embed">
                         <img src={ios_logo} class="steam-img"/>
-                        <u>iOS: Jan 23</u>
+                        <u>iOS</u>
                     </div>
                 </a>
                 </div>
@@ -247,6 +258,7 @@
     import laurel6 from '$lib/laurels-future-play.png';
     import laurel7 from '$lib/laurels-dotd.png';
     import laurel8 from '$lib/laurels-playtopia.png';
+    import laurel9 from '$lib/laurels-igf.png';
 
 </script>
 
