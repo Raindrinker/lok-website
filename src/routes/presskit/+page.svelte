@@ -30,8 +30,8 @@
                     <div class="presskit-title2 pt">Links</div>
                     <div class="presskit-text"><a href="https://store.steampowered.com/app/2207440/LOK_Digital/">Steam</a></div>
                     <div class="presskit-text"><a href="https://draknek.itch.io/lok-digital">itch.io</a></div>
-                    <div class="presskit-text"><a href="https://play.google.com/store/apps/details?id=com.IcedropGames.LOK">Android (23 Jan)</a></div>
-                    <div class="presskit-text"><a href="https://apps.apple.com/app/id6476513210">iOS (23 Jan)</a></div>
+                    <div class="presskit-text"><a href="https://play.google.com/store/apps/details?id=com.IcedropGames.LOK">Android</a></div>
+                    <div class="presskit-text"><a href="https://apps.apple.com/app/id6476513210">iOS</a></div>
 
 
                 </div>
