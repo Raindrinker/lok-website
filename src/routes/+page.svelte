@@ -125,6 +125,15 @@
                 </a>
                 </div>
 
+                <div class="mobile-links">
+                    <a href="https://lok-digital.com/switch" target="_blank">
+                        <div class="android-embed">
+                            <img src={switch_logo} class="switch-img"/>
+                            <u>Switch</u>
+                        </div>
+                    </a>
+                </div>
+
                 <form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form">
                     <input type="email" name="email" id="email" class="email" placeholder="email address" required />
                     <div style="position: absolute; left: -5000px;">
@@ -242,6 +251,7 @@
     import steam_logo from '$lib/images/steam.png';
     import android_logo from '$lib/images/android.png';
     import ios_logo from '$lib/images/apple.png';
+    import switch_logo from '$lib/images/nintendo-switch.png';
     import itch_logo from '$lib/images/itchio.png';
     import decoration1 from '$lib/images/lok-digital/decoration1.png';
     import decoration2 from '$lib/images/lok-digital/decoration2.png';
