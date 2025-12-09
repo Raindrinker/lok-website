@@ -555,6 +555,10 @@
         max-width: 64px;
     }
 
+    .switch-img {
+        max-width: 128px;
+    }
+
     .steam-embed-mobile, .ios-embed, .android-embed, .itch-embed-mobile {
         font-weight: bold;
         display: flex;
