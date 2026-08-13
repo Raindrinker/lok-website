@@ -134,16 +134,7 @@
                     </a>
                 </div>
 
-                <form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form">
-                    <input type="email" name="email" id="email" class="email" placeholder="email address" required />
-                    <div style="position: absolute; left: -5000px;">
-                        <label for="hp">HP</label><br/>
-                        <input type="text" name="hp" id="hp"/>
-                    </div>
-                    <input type="hidden" name="list" value="hJp8h763x9G9E8Ujj43DTVwA"/>
-                    <input type="hidden" name="subform" value="yes"/>
-                    <input type="submit" name="submit" id="submit" class="button-primary" value="Subscribe to updates"/>
-                </form>
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script><script type="text/javascript">function onSubmit(token) { document.getElementById("newsletter-form").submit(); }</script><form action="https://secure.draknek.org/sendy/subscribe" method="POST" accept-charset="utf-8" class="mailing-form svelte-14sira1" id="newsletter-form"><input type="email" name="email" id="email" class="email svelte-14sira1" placeholder="email address" required> <div style="position: absolute; left: -5000px;"><label for="hp">HP</label><br> <input type="text" name="hp" id="hp"></div> <input type="hidden" name="list" value="hJp8h763x9G9E8Ujj43DTVwA"> <input type="hidden" name="subform" value="yes"> <input type="submit" class="button-primary g-recaptcha svelte-14sira1" value="Subscribe to updates" data-sitekey="6LeuwvwsAAAAANvFG372sVqW3scaQFj9tjrOvoCR" data-callback="onSubmit"></form>
             </div>
 
 
@@ -685,7 +676,6 @@
         padding: 4px 16px;
 
         border: 0px;
-        max-width: 80%;
         margin-top: 4px;
     }
 
